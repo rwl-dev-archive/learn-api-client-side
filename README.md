@@ -1,2 +1,2 @@
-# learn-api
-API実装を試す
+# Client Side of "Learn API" 
+Deno製APIを取得し、展開する。
