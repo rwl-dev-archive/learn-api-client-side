@@ -1,16 +1,5 @@
-import { globalStyle, keyframes, style } from '@vanilla-extract/css';
+import { keyframes, style } from '@vanilla-extract/css';
 import { calc } from '@vanilla-extract/css-utils';
-
-globalStyle('body', {
-  margin: 0,
-  fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
-  WebkitFontSmoothing: 'antialiased',
-  MozOsxFontSmoothing: 'grayscale',
-})
-
-globalStyle('code', {
-  fontFamily: 'source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace',
-})
 
 export const appStyle = style({
   textAlign: 'center',
