@@ -1,2 +1,2 @@
 # Client Side of "Learn API" 
-Deno製APIを取得し、展開する。
+`learn-api-server-side`からデータを取得し、展開する。
